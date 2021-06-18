@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/nickgarabedian/ontologies/2021/0/TriboDataFAIR#"
      xml:base="http://www.semanticweb.org/nickgarabedian/ontologies/2021/0/TriboDataFAIR"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/nickgarabedian/ontologies/2021/0/TriboDataFAIR">
-        <rdfs:comment>Ontology Title: Ontology of FAIR Tribological Data
-
-Creator: Nikolay Garabedian, Ph.D.
-
-Domain Knowledge Source: TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</rdfs:comment>
-        <rdfs:comment>This work is licensed under a Creative Commons Attribution 4.0 International License. http://creativecommons.org/licenses/by/4.0/</rdfs:comment>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nikolay Garabedian, Ph.D.</dc:creator>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TriboDataFAIR Ontology represents the metadata necessary for various laboratory procedures to be fully reproducible. WIth vocabulary listed for each class and the relevant object properties define a framework for using an electronic lab notebook in the collection of metadata.</dc:description>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This work is licensed under a Creative Commons Attribution 4.0 International License. http://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TriboDataFAIR Ontology</dc:title>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain Knowledge Source: TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</rdfs:comment>
     </owl:Ontology>
     
 
@@ -25,6 +25,30 @@ Domain Knowledge Source: TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</r
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
