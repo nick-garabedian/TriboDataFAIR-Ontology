@@ -4851,7 +4851,7 @@ FROM https://en.wikipedia.org/wiki/Industrial_processes</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the flash point the piece of interfacial medium.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>List Item</friendlyName>
+        <friendlyName>List Item (Flash Point Specification)</friendlyName>
         <persistentID>TDO:0000480</persistentID>
     </owl:Class>
     
