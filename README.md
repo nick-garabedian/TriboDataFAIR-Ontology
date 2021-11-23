@@ -10,3 +10,5 @@ The ontology has been validated by reimplementing the showcase experiment and pr
 In order to use the ontology for it purpose on can use SurfTheOWL (https://github.com/nick-garabedian/SurfTheOWL) as a start.
 
 The software called Protégé (https://protege.stanford.edu/) was used for the development of the ontology, while SUMO (https://www.ontologyportal.org/) and EXPO (http://expo.sourceforge.net/) were used as foundational upper ontologies, and tribAIn (https://github.com/snow0815/tribAIn) was used to a limited extent when possible.
+
+More information and contact details found here: https://beta.fairsharing.org/3597
