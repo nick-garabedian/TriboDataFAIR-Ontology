@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/378159629.svg)](https://zenodo.org/badge/latestdoi/378159629)
+
 # TriboDataFAIR Ontology
  An ontology of FAIR tribological experiments
 
