@@ -9889,7 +9889,7 @@ This array contains one entry for the base body and one entry for the counter bo
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally, but are not directly part of achieving the experimental objectives.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System/Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs</friendlyName>
         <persistentID>TDO:0000426</persistentID>
     </owl:Class>
     
