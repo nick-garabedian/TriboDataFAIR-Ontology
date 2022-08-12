@@ -11909,7 +11909,7 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Diamond5micron90degStylus">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#StylusTipType"/>
-        <friendlyName>Diamond 5 µm/90°</friendlyName>
+        <friendlyName>Diamond 5 µm 90°</friendlyName>
     </owl:NamedIndividual>
     
 
