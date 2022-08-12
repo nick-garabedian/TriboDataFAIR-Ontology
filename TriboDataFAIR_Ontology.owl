@@ -12884,7 +12884,7 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#MetersPerSecond">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#SpeedUnit"/>
-        <friendlyName>m/s</friendlyName>
+        <friendlyName>m*s^(-1)</friendlyName>
     </owl:NamedIndividual>
     
 
