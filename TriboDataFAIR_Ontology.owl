@@ -7247,7 +7247,7 @@ If only one file is used, this is 1.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System/Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs</friendlyName>
         <persistentID>TDO:0000406</persistentID>
     </owl:Class>
     
