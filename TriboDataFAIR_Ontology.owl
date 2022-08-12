@@ -5728,7 +5728,7 @@ For Tribometers, the way the normal load is applied can have a big influence on 
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#SpecimenRelatedName"/>
         <rdfs:comment>The official name of the insitution where the object was manufactured.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Company/Vendor Name</friendlyName>
+        <friendlyName>Company or Vendor Name</friendlyName>
         <persistentID>TDO:0000155</persistentID>
     </owl:Class>
     
