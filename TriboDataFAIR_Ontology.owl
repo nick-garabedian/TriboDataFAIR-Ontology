@@ -14240,7 +14240,7 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#kgPerm3">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#MassDensityUnit"/>
-        <friendlyName>kg/m^3</friendlyName>
+        <friendlyName>kg*m^(-3)</friendlyName>
     </owl:NamedIndividual>
     
 
