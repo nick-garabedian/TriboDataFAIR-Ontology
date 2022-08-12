@@ -12929,7 +12929,7 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#MicronsPerVoltUnit">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#ConversionUnit"/>
-        <friendlyName>µm/V</friendlyName>
+        <friendlyName>µm*V^(-1)</friendlyName>
     </owl:NamedIndividual>
     
 
