@@ -7003,7 +7003,7 @@ If only one file is used, this is 1.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about who performed a scientific process, or is responsible for an object.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Operator/s in Charge</friendlyName>
+        <friendlyName>Operator(s) in Charge</friendlyName>
         <persistentID>TDO:0000441</persistentID>
     </owl:Class>
     
