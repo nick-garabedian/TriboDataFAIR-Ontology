@@ -3149,7 +3149,7 @@ A value of 100% indicates the tool can be operated continuously without need for
         <rdfs:comment>The type of machine and the way it is referred to.
 The friendly way to identify it.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment/Product Model</friendlyName>
+        <friendlyName>Equipment or Product Model</friendlyName>
         <persistentID>TDO:0000152</persistentID>
     </owl:Class>
     
