@@ -1290,7 +1290,7 @@ Block specimens can have viscoelasticity.</rdfs:comment>
         <rdfs:comment>The principal tribological side/s of interest. Defined by ISO (not US) technical drawing standards.
 Valid after a feature and its side have been defined.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Tribological Interest Side/s</friendlyName>
+        <friendlyName>Tribological Interest Side(s)</friendlyName>
         <persistentID>TDO:0000181</persistentID>
     </owl:Class>
     
