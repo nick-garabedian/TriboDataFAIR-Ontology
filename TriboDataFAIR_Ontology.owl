@@ -6859,7 +6859,7 @@ If only one file is used, this is 1.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentRelatedName"/>
         <rdfs:comment>The model name of equipment/object, which the company has given to its product.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment/Product Model</friendlyName>
+        <friendlyName>Equipment or Product Model</friendlyName>
         <persistentID>TDO:0000156</persistentID>
     </owl:Class>
     
