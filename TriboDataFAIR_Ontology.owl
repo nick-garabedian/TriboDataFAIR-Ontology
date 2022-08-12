@@ -3479,7 +3479,7 @@ More instances of this class could be added if the files are moved/copied to oth
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Role"/>
         <rdfs:comment>Instances of this class specify the purpose of generation of a specific output file during conduction of the experiment. Free text allowed.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>File/s Purpose</friendlyName>
+        <friendlyName>File(s) Purpose</friendlyName>
         <persistentID>TDO:0000392</persistentID>
     </owl:Class>
     
