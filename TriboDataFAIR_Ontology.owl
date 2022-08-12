@@ -13028,7 +13028,7 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#NewtonPerVoltUnit">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#ConversionUnit"/>
-        <friendlyName>N/V</friendlyName>
+        <friendlyName>N*V^(-1)</friendlyName>
     </owl:NamedIndividual>
     
 
