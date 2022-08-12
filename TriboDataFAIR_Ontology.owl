@@ -12673,7 +12673,7 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#MANTUC2442over91">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#MANStandard"/>
-        <friendlyName>TUC 2442/91</friendlyName>
+        <friendlyName>TUC 2442 91</friendlyName>
     </owl:NamedIndividual>
     
 
