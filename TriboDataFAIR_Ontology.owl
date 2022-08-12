@@ -3161,7 +3161,7 @@ The friendly way to identify it.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentRelatedName"/>
         <rdfs:comment>The type of machine and the way it is referred to. The friendly way to identify it.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment Type/Name</friendlyName>
+        <friendlyName>Equipment Type or Name</friendlyName>
         <persistentID>TDO:0000153</persistentID>
     </owl:Class>
     
