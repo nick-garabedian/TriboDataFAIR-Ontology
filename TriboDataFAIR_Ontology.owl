@@ -8916,7 +8916,7 @@ For Other Processes: Objects of this class act as the medium around the specimen
         </rdfs:subClassOf>
         <rdfs:comment>The equipment setting which specifies the temperature setting of a machine.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Target Heating/Cooling Temperature</friendlyName>
+        <friendlyName>Target Heating or Cooling Temperature</friendlyName>
         <persistentID>TDO:0000253</persistentID>
     </owl:Class>
     
