@@ -9527,7 +9527,7 @@ Reference: Dublin Core: http://www.lub.lu.se/cgi-bin/nmdc.pl</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing specific information about the file supplied to the controlling software to run an experiment.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>List Item (Input File/s Info)</friendlyName>
+        <friendlyName>List Item (Input File(s) Info)</friendlyName>
         <persistentID>TDO:0000415</persistentID>
     </owl:Class>
     
