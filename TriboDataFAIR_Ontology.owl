@@ -208,7 +208,12 @@ First Digit Meanings:
     <owl:ObjectProperty rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasKadi4MatValueType">
         <rdfs:subPropertyOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasAttribute"/>
         <rdfs:range rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-        <rdfs:comment>This property relates an object to its Kadi4Mat Value Type.</rdfs:comment>
+        <rdfs:comment>This property relates an object to its Kadi4Mat Value Type.
+
+IMPORTANT: Using this object property does not restrict or define the values that can be entered - this is the task of using Data properties from the ontology. Using this object property purely signals what data format value (e.g. float) should be input when assembling a Kadi4Mat Record; this does not automatically mean that the value that is actually input will obey it (this is enforced by Kadi4Mat). In this way universal data types (e.g. xsd:float) are kept separate from Kadi4Mat&apos;s value types (float).
+This is why this object property has to be used on the key (i.e. in parallel with hasQuantification), and not on the magnitudes (e.g. hasText).</rdfs:comment>
+        <definitionOrigin>TriboData Team at IAM-ZM at KIT, Karlsruhe, Germany</definitionOrigin>
+        <friendlyName>hadValueType</friendlyName>
         <persistentID>TDO:1000121</persistentID>
     </owl:ObjectProperty>
     
@@ -5294,17 +5299,7 @@ FROM https://en.wikipedia.org/wiki/Industrial_processes</rdfs:comment>
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatBoolean -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatBoolean">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasBoolean"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
         <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a boolean.
 
 Kadi4Mat definition:
@@ -5318,18 +5313,7 @@ A single boolean value which can either be true or false.</rdfs:comment>
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDate -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDate">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasTimeStamp"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
         <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a date.
 
 Kadi4Mat definition:
@@ -5357,17 +5341,7 @@ A nested value which can be used to combine multiple metadata entries under a si
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatFloat -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatFloat">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasRationalNumberValue"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
         <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a float.
 
 Kadi4Mat definition:
@@ -5381,17 +5355,7 @@ A single floating point value. Float values can optionally have a unit further d
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatInteger -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatInteger">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasRationalNumberValue"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
         <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is an integer.
 
 Kadi4Mat definition:
@@ -5644,7 +5608,9 @@ o	Experimental Object</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList"/>
         <rdfs:comment>Indicates a Kadi4Mat List, whose elements are ordered in a sequential fashion.
 
-Kadi4Mat does not differentiate between sequential and nonsequential lists.</rdfs:comment>
+Kadi4Mat does not differentiate between sequential and nonsequential lists.
+
+Such lists require that Squential Order Position is mentioned.</rdfs:comment>
         <friendlyName>Kadi4Mat Sequential List</friendlyName>
         <persistentID>TDO:0000551</persistentID>
     </owl:Class>
@@ -5654,17 +5620,7 @@ Kadi4Mat does not differentiate between sequential and nonsequential lists.</rdf
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasText"/>
-                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
         <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a string.
 
 Kadi4Mat definition:
