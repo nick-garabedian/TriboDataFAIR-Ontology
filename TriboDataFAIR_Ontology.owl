@@ -183,7 +183,7 @@ First Digit Meanings:
 
     <owl:ObjectProperty rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasFilesWithMetadata">
         <rdfs:subPropertyOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasPart"/>
-        <rdfs:comment>This property indicates the production of metadate in a scientific process assiciated with the production of data in a file.</rdfs:comment>
+        <rdfs:comment>This property indicates the production of metadata in a scientific process assiciated with the production of data in a file.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
         <friendlyName>hasFilesWithMetadata</friendlyName>
         <persistentID>TDO:1000103</persistentID>
