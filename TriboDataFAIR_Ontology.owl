@@ -91,7 +91,9 @@ Domain Knowledge Source: TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</r
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#kadi4MatValueType -->
 
     <owl:AnnotationProperty rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#kadi4MatValueType">
-        <rdfs:comment>The Kadi4Mat Value Type of the entity, which corresponds to a Kadi4Mat metadata field.</rdfs:comment>
+        <rdfs:comment>The Kadi4Mat Value Type of the entity, which corresponds to a Kadi4Mat metadata field.
+
+Using this annotation property does not restrict or define the values that can be entered - this is the task of using Data properties from the ontology. Using this annotation property purely signals what data format value (e.g. float) should be input when assembling a Kadi4Mat Record; this does not automatically mean that the value that is actually input will obey it (this is enforced by Kadi4Mat). In this way universal data types (e.g. xsd:float) are kept separate from Kadi4Mat&apos;s value types (float).</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-ZM at KIT, Karlsruhe, Germany</definitionOrigin>
         <persistentID>TDO:3000104</persistentID>
     </owl:AnnotationProperty>
