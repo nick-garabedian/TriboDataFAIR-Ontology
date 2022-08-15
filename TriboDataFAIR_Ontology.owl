@@ -2936,7 +2936,7 @@ A value of 100% indicates the tool can be operated continuously without need for
         </rdfs:subClassOf>
         <rdfs:comment>The physical quantity that characterizes the quantity called distance.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Distance Magnitude</friendlyName>
+        <friendlyName>Distance Setpoint Magnitude</friendlyName>
         <persistentID>TDO:0000374</persistentID>
     </owl:Class>
     
