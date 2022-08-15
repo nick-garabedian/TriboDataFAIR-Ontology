@@ -2265,7 +2265,7 @@ This has a major influence on the resulting roughness of the sample&apos;s surfa
         </rdfs:subClassOf>
         <rdfs:comment>Class containing derived information about the process. All derived information stems from the information recorded in other locations of the record.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Process Summary</friendlyName>
+        <friendlyName>Process Summary (Cup Grinding)</friendlyName>
         <persistentID>TDO:0000397</persistentID>
     </owl:Class>
     
@@ -4679,7 +4679,7 @@ First underground/basement floor has value &quot;-1&quot;</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing derived information about the process. All derived information stems from the information recorded in other locations of the record.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Process Summary</friendlyName>
+        <friendlyName>Process Summary (Heat Treatment)</friendlyName>
         <persistentID>TDO:0000403</persistentID>
     </owl:Class>
     
