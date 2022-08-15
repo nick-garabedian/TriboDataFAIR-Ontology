@@ -1350,30 +1350,6 @@ Valid after a feature and its side have been defined.</rdfs:comment>
     
 
 
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenSpecificFaceOrientationCollective -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenSpecificFaceOrientationCollective">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimentRelatedCollective"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenOrientationIndicatingFeatureSide"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenOrientationIndicatingFeatureType"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>Class containing information about the spatial orientation of the faces of a block sample.</rdfs:comment>
-        <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Indicated Face Orientation</friendlyName>
-        <persistentID>TDO:0000461</persistentID>
-    </owl:Class>
-    
-
-
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimentRelatedCollective -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimentRelatedCollective">
