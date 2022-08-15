@@ -1645,7 +1645,7 @@ The exact process is unknown, but it is performed by a firm that is external to 
         </rdfs:subClassOf>
         <rdfs:comment>Objects of this class contain information that describes known information about a process external to the research insitution.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>General Info</friendlyName>
+        <friendlyName>General Info (External Process)</friendlyName>
         <persistentID>TDO:0000437</persistentID>
     </owl:Class>
     
@@ -3086,7 +3086,7 @@ A value of 100% indicates the tool can be operated continuously without need for
         </rdfs:subClassOf>
         <rdfs:comment>Objects of this class contain information that unequivocally identifies a piece of equipment.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>General Info</friendlyName>
+        <friendlyName>General Info (Equipment)</friendlyName>
         <persistentID>TDO:0000438</persistentID>
     </owl:Class>
     
@@ -4973,7 +4973,7 @@ FROM https://en.wikipedia.org/wiki/Industrial_processes</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Objects of this class contain information that unequivocally identifies a piece of interfacial medium.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>General Info</friendlyName>
+        <friendlyName>General Info (Interfacial Medium)</friendlyName>
         <persistentID>TDO:0000439</persistentID>
     </owl:Class>
     
@@ -7616,7 +7616,7 @@ In the Kadi4Mat the data type for this is Date — dd. &quot;Month&quot; yyyy HH
         </rdfs:subClassOf>
         <rdfs:comment>Objects of this class contain information that unequivocally identifies the process.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>General Info</friendlyName>
+        <friendlyName>General Info (Process)</friendlyName>
         <persistentID>TDO:0000442</persistentID>
     </owl:Class>
     
@@ -8445,7 +8445,7 @@ Refers to common names of information/quantities/elements/entities we capture du
         </rdfs:subClassOf>
         <rdfs:comment>Objects of this class contain information that unequivocally identifies a specimen.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>General Info</friendlyName>
+        <friendlyName>General Info (Specimen)</friendlyName>
         <persistentID>TDO:0000443</persistentID>
     </owl:Class>
     
