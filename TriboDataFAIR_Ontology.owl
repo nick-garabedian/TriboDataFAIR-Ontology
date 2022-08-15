@@ -8877,9 +8877,6 @@ For Other Processes: Objects of this class act as the medium around the specimen
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#TactileSurfaceProfilometryRelatedCollective">
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#CircumstancesCollective"/>
-        <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
-        <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
     </owl:Class>
     
 
