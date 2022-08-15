@@ -88,6 +88,16 @@ Domain Knowledge Source: TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</r
     
 
 
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#kadi4MatValueType -->
+
+    <owl:AnnotationProperty rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#kadi4MatValueType">
+        <rdfs:comment>The Kadi4Mat Value Type of the entity, which corresponds to a Kadi4Mat metadata field.</rdfs:comment>
+        <definitionOrigin>TriboData Team at IAM-ZM at KIT, Karlsruhe, Germany</definitionOrigin>
+        <persistentID>TDO:3000104</persistentID>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#persistentID -->
 
     <owl:AnnotationProperty rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#persistentID">
