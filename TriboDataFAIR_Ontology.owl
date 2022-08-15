@@ -5643,7 +5643,7 @@ For Tribometers, the way the normal load is applied can have a big influence on 
         </rdfs:subClassOf>
         <rdfs:comment>Class containing a collection of pieces of information about where a process occured, or an object typically resides or is stored.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Location</friendlyName>
+        <friendlyName>Location Information</friendlyName>
         <persistentID>TDO:0000440</persistentID>
     </owl:Class>
     
