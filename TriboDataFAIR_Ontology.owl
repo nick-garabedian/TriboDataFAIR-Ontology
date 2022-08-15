@@ -2691,7 +2691,7 @@ This has a major influence on the resulting roughness of the sample&apos;s surfa
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs (Demagnetization)</friendlyName>
         <persistentID>TDO:0000400</persistentID>
     </owl:Class>
     
@@ -4244,7 +4244,7 @@ First underground/basement floor has value &quot;-1&quot;</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs (Hardness Measurement)</friendlyName>
         <persistentID>TDO:0000401</persistentID>
     </owl:Class>
     
@@ -7258,7 +7258,7 @@ If only one file is used, this is 1.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs (Optical Surface Profilometry)</friendlyName>
         <persistentID>TDO:0000406</persistentID>
     </owl:Class>
     
@@ -8867,7 +8867,7 @@ For Other Processes: Objects of this class act as the medium around the specimen
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs (Tactile Surface Profilometry)</friendlyName>
         <persistentID>TDO:0000409</persistentID>
     </owl:Class>
     
@@ -9897,7 +9897,7 @@ This array contains one entry for the base body and one entry for the counter bo
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally, but are not directly part of achieving the experimental objectives.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
+        <friendlyName>System or Setup Inputs (Tribological Experiment System)</friendlyName>
         <persistentID>TDO:0000426</persistentID>
     </owl:Class>
     
