@@ -1350,30 +1350,6 @@ Valid after a feature and its side have been defined.</rdfs:comment>
     
 
 
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenSpecificFaceOrientationCollective -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenSpecificFaceOrientationCollective">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimentRelatedCollective"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenOrientationIndicatingFeatureSide"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimenOrientationIndicatingFeatureType"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>Class containing information about the spatial orientation of the faces of a block sample.</rdfs:comment>
-        <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Indicated Face Orientation</friendlyName>
-        <persistentID>TDO:0000461</persistentID>
-    </owl:Class>
-    
-
-
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimentRelatedCollective -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#BlockSpecimentRelatedCollective">
@@ -1634,7 +1610,7 @@ The exact process is unknown, but it is performed by a firm that is external to 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName"/>
+                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3081,7 +3057,7 @@ A value of 100% indicates the tool can be operated continuously without need for
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName"/>
+                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3148,9 +3124,9 @@ A value of 100% indicates the tool can be operated continuously without need for
     
 
 
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName -->
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName -->
 
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName">
+    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName">
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentRelatedName"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3158,22 +3134,9 @@ A value of 100% indicates the tool can be operated continuously without need for
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>The type of machine and the way it is referred to.
-The friendly way to identify it.</rdfs:comment>
-        <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment or Product Model</friendlyName>
-        <persistentID>TDO:0000152</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentRelatedName"/>
         <rdfs:comment>The type of machine and the way it is referred to. The friendly way to identify it.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment Type or Name</friendlyName>
+        <friendlyName>Equipment Friendly Name</friendlyName>
         <persistentID>TDO:0000153</persistentID>
     </owl:Class>
     
@@ -4544,7 +4507,7 @@ First underground/basement floor has value &quot;-1&quot;</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName"/>
+                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8914,9 +8877,6 @@ For Other Processes: Objects of this class act as the medium around the specimen
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#TactileSurfaceProfilometryRelatedCollective">
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#CircumstancesCollective"/>
-        <rdfs:comment>Class containing information about the parameters that are put into the involved scientific equipment to run it optimally.</rdfs:comment>
-        <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>System or Setup Inputs</friendlyName>
     </owl:Class>
     
 
