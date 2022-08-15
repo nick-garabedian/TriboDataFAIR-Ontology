@@ -3148,25 +3148,6 @@ A value of 100% indicates the tool can be operated continuously without need for
     
 
 
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentRelatedName"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasText"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>The type of machine and the way it is referred to.
-The friendly way to identify it.</rdfs:comment>
-        <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment or Product Model</friendlyName>
-        <persistentID>TDO:0000152</persistentID>
-    </owl:Class>
-    
-
-
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName">
