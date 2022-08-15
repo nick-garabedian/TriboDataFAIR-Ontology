@@ -4889,7 +4889,7 @@ FROM https://en.wikipedia.org/wiki/Industrial_processes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#ClassificationCategory"/>
         <rdfs:comment>The lubricant class which interfacial medium fits into best.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Material Category</friendlyName>
+        <friendlyName>Material Category (Interfacial Medium)</friendlyName>
         <persistentID>TDO:0000136</persistentID>
     </owl:Class>
     
@@ -5824,7 +5824,7 @@ For Tribometers, the way the normal load is applied can have a big influence on 
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#ClassificationCategory"/>
         <rdfs:comment>The material class which block specimen fits into best.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Material Category</friendlyName>
+        <friendlyName>Material Category (Block Specimen)</friendlyName>
         <persistentID>TDO:0000139</persistentID>
     </owl:Class>
     
