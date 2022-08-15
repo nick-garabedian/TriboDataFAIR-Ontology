@@ -938,7 +938,7 @@ The counter body in a model experiment is the sample or body...
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a bandsaw.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Band Saw)</friendlyName>
         <persistentID>TDO:0000454</persistentID>
     </owl:Class>
     
@@ -2076,7 +2076,7 @@ The exact process is unknown, but it is performed by a firm that is external to 
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a cup grinding machine.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Cup Grinding Machine)</friendlyName>
         <persistentID>TDO:0000462</persistentID>
     </owl:Class>
     
@@ -2844,7 +2844,7 @@ A value of 100% indicates the tool can be operated continuously without need for
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a demagnetizing plate.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Demagnetizing Plate)</friendlyName>
         <persistentID>TDO:0000464</persistentID>
     </owl:Class>
     
@@ -4077,7 +4077,7 @@ First underground/basement floor has value &quot;-1&quot;</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a furnace.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Furnace)</friendlyName>
         <persistentID>TDO:0000470</persistentID>
     </owl:Class>
     
@@ -4494,7 +4494,7 @@ First underground/basement floor has value &quot;-1&quot;</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a hardness testing system.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Hardness Testing System)</friendlyName>
         <persistentID>TDO:0000477</persistentID>
     </owl:Class>
     
@@ -5151,7 +5151,7 @@ FROM https://en.wikipedia.org/wiki/Industrial_processes</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a piece of interfacial medium.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Interfacial Medium)</friendlyName>
         <persistentID>TDO:0000485</persistentID>
     </owl:Class>
     
@@ -7131,7 +7131,7 @@ If only one file is used, this is 1.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a optical surface profilometer.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Optical Surface Profilometer)</friendlyName>
         <persistentID>TDO:0000488</persistentID>
     </owl:Class>
     
@@ -8758,7 +8758,7 @@ For Other Processes: Objects of this class act as the medium around the specimen
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a tactile surface profilometer.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Tactile Surface Profilometer)</friendlyName>
         <persistentID>TDO:0000492</persistentID>
     </owl:Class>
     
@@ -10278,7 +10278,7 @@ This array contains one entry for the base body and one entry for the counter bo
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical Specifications of a Tribometer</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Tribometer)</friendlyName>
         <persistentID>TDO:0000508</persistentID>
     </owl:Class>
     
@@ -10447,7 +10447,7 @@ This array contains one entry for the base body and one entry for the counter bo
         </rdfs:subClassOf>
         <rdfs:comment>Class containing information about the technical specifications of a ultrasonic cleaner.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Technical Specifications</friendlyName>
+        <friendlyName>Technical Specifications (Ultrasonic Cleaner)</friendlyName>
         <persistentID>TDO:0000510</persistentID>
     </owl:Class>
     
