@@ -5799,7 +5799,7 @@ For Tribometers, the way the normal load is applied can have a big influence on 
         </rdfs:subClassOf>
         <rdfs:comment>The physical quantity that characterizes the phenomenon called mass.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Mass Magnitude</friendlyName>
+        <friendlyName>Mass Setpoint Magnitude</friendlyName>
         <persistentID>TDO:0000376</persistentID>
     </owl:Class>
     
