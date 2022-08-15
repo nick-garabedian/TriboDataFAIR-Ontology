@@ -5296,76 +5296,6 @@ FROM https://en.wikipedia.org/wiki/Industrial_processes</rdfs:comment>
     
 
 
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatBoolean -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatBoolean">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a boolean.
-
-Kadi4Mat definition:
-A single boolean value which can either be true or false.</rdfs:comment>
-        <friendlyName>Kadi4Mat Boolean</friendlyName>
-        <persistentID>TDO:0000546</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDate -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDate">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a date.
-
-Kadi4Mat definition:
-A date and time value which can be selected from a date picker.</rdfs:comment>
-        <friendlyName>Kadi4Mat Date</friendlyName>
-        <persistentID>TDO:0000547</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDictionary -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDictionary">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatNestedValue"/>
-        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a dictionary.
-
-Kadi4Mat definition:
-A nested value which can be used to combine multiple metadata entries under a single key.</rdfs:comment>
-        <friendlyName>Kadi4Mat Dictionary</friendlyName>
-        <persistentID>TDO:0000549</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatFloat -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatFloat">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a float.
-
-Kadi4Mat definition:
-A single floating point value. Float values can optionally have a unit further describing them.</rdfs:comment>
-        <friendlyName>Kadi4Mat Float</friendlyName>
-        <persistentID>TDO:0000545</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatInteger -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatInteger">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is an integer.
-
-Kadi4Mat definition:
-A single integer value. Integer values can optionally have a unit further describing them.</rdfs:comment>
-        <friendlyName>Kadi4Mat Integer</friendlyName>
-        <persistentID>TDO:0000544</persistentID>
-    </owl:Class>
-    
-
-
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList">
@@ -5375,7 +5305,7 @@ A single integer value. Integer values can optionally have a unit further descri
 Kadi4Mat definition:
 A nested value which is similar to dictionaries with the difference that none of the values in a list have a key.</rdfs:comment>
         <friendlyName>Kadi4Mat List</friendlyName>
-        <persistentID>TDO:0000550</persistentID>
+        <persistentID>TDO:0000544</persistentID>
     </owl:Class>
     
 
@@ -5386,20 +5316,7 @@ A nested value which is similar to dictionaries with the difference that none of
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
         <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a nested value. Nested values denote Kadi4Mat Dictionaries, and Lists.</rdfs:comment>
         <friendlyName>Kadi4Mat Nested Value</friendlyName>
-        <persistentID>TDO:0000548</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatNonsequentialList -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatNonsequentialList">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList"/>
-        <rdfs:comment>Indicates a Kadi4Mat List, whose elements are not ordered in a sequential fashion.
-
-Kadi4Mat does not differentiate between sequential and nonsequential lists.</rdfs:comment>
-        <friendlyName>Kadi4Mat Nonsequential List</friendlyName>
-        <persistentID>TDO:0000552</persistentID>
+        <persistentID>TDO:0000543</persistentID>
     </owl:Class>
     
 
@@ -5598,35 +5515,6 @@ o	Experimental Object</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
         <friendlyName>Visibility</friendlyName>
         <persistentID>TDO:0000138</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatSequentialList -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatSequentialList">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList"/>
-        <rdfs:comment>Indicates a Kadi4Mat List, whose elements are ordered in a sequential fashion.
-
-Kadi4Mat does not differentiate between sequential and nonsequential lists.
-
-Such lists require that Squential Order Position is mentioned.</rdfs:comment>
-        <friendlyName>Kadi4Mat Sequential List</friendlyName>
-        <persistentID>TDO:0000551</persistentID>
-    </owl:Class>
-    
-
-
-    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString -->
-
-    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString">
-        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
-        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a string.
-
-Kadi4Mat definition:
-A single text value.</rdfs:comment>
-        <friendlyName>Kadi4Mat String</friendlyName>
-        <persistentID>TDO:0000543</persistentID>
     </owl:Class>
     
 
@@ -12586,6 +12474,110 @@ The axes are the natural ones defined by the manufacturer or when looked at the 
     <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#KITLocation">
         <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#InstitutionLocation"/>
         <friendlyName>Karlsruhe Institute of Technology (KIT)</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatBoolean -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatBoolean">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
+        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a boolean.
+
+Kadi4Mat definition:
+A single boolean value which can either be true or false.</rdfs:comment>
+        <friendlyName>Kadi4Mat Boolean</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDate -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDate">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
+        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a date.
+
+Kadi4Mat definition:
+A date and time value which can be selected from a date picker.</rdfs:comment>
+        <friendlyName>Kadi4Mat Date</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDictionary -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatDictionary">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatNestedValue"/>
+        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a dictionary.
+
+Kadi4Mat definition:
+A nested value which can be used to combine multiple metadata entries under a single key.</rdfs:comment>
+        <friendlyName>Kadi4Mat Dictionary</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatFloat -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatFloat">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
+        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a float.
+
+Kadi4Mat definition:
+A single floating point value. Float values can optionally have a unit further describing them.</rdfs:comment>
+        <friendlyName>Kadi4Mat Float</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatInteger -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatInteger">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
+        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is an integer.
+
+Kadi4Mat definition:
+A single integer value. Integer values can optionally have a unit further describing them.</rdfs:comment>
+        <friendlyName>Kadi4Mat Integer</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatNonsequentialList -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatNonsequentialList">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList"/>
+        <rdfs:comment>Indicates a Kadi4Mat List, whose elements are not ordered in a sequential fashion.
+
+Kadi4Mat does not differentiate between sequential and nonsequential lists.</rdfs:comment>
+        <friendlyName>Kadi4Mat Nonsequential List</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatSequentialList -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatSequentialList">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatList"/>
+        <rdfs:comment>Indicates a Kadi4Mat List, whose elements are ordered in a sequential fashion.
+
+Kadi4Mat does not differentiate between sequential and nonsequential lists.
+
+Such lists require that Squential Order Position is mentioned.</rdfs:comment>
+        <friendlyName>Kadi4Mat Sequential List</friendlyName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString -->
+
+    <owl:NamedIndividual rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString">
+        <rdf:type rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatValueType"/>
+        <rdfs:comment>Indicates that the Kadi4Mat value type of a class which corresponds to a Kadi4Mat metadata field is a string.
+
+Kadi4Mat definition:
+A single text value.</rdfs:comment>
+        <friendlyName>Kadi4Mat String</friendlyName>
     </owl:NamedIndividual>
     
 
