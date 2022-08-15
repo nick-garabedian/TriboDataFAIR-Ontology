@@ -1634,7 +1634,7 @@ The exact process is unknown, but it is performed by a firm that is external to 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName"/>
+                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3081,7 +3081,7 @@ A value of 100% indicates the tool can be operated continuously without need for
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName"/>
+                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3171,9 +3171,15 @@ The friendly way to identify it.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName">
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentRelatedName"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasText"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>The type of machine and the way it is referred to. The friendly way to identify it.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Equipment Type or Name</friendlyName>
+        <friendlyName>Equipment Friendly Name</friendlyName>
         <persistentID>TDO:0000153</persistentID>
     </owl:Class>
     
@@ -4544,7 +4550,7 @@ First underground/basement floor has value &quot;-1&quot;</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#isComprisedOf"/>
-                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentName"/>
+                <owl:someValuesFrom rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#EquipmentNonSpecificIdentificatoryName"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
