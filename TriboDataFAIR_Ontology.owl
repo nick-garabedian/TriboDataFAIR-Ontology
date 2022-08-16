@@ -598,7 +598,7 @@ The counter body in a model experiment is the sample or body...
         <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#PhysicalQuantityUnit"/>
         <rdfs:comment>The unit that locks the meaning of the amount of the phenomenon of angle between two rotations.</rdfs:comment>
         <definitionOrigin>TriboData Team at IAM-CMS at KIT, Karlsruhe, Germany</definitionOrigin>
-        <friendlyName>Angular Velocity Unit</friendlyName>
+        <friendlyName>Angle Unit</friendlyName>
         <persistentID>TDO:0000105</persistentID>
     </owl:Class>
     
