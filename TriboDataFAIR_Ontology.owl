@@ -1546,6 +1546,25 @@ Valid after a feature and its side have been defined.</rdfs:comment>
     
 
 
+    <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#ColumnDescription -->
+
+    <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#ColumnDescription">
+        <rdfs:subClassOf rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Proposition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#hasText"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Unconstrained statement by operator about a column header of a raw data file.</rdfs:comment>
+        <definitionOrigin>TriboData Team at IAM-ZM at KIT, Karlsruhe, Germany</definitionOrigin>
+        <friendlyName>Description</friendlyName>
+        <kadi4MatValueType rdf:resource="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Kadi4MatString"/>
+        <persistentID>TDO:0000545</persistentID>
+    </owl:Class>
+    
+
+
     <!-- https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Comment -->
 
     <owl:Class rdf:about="https://www.iam.kit.edu/cms/download/TriboDataFAIR_Ontology.owl#Comment">
